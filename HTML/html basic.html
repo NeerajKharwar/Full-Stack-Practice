@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<head>
+    <title>html practice</title>
+</head>
+
+<body>
+    <h1>Pangolin </h1>
+    <h2>Intro</h2>
+    <p>Pangolins, sometimes known as scaly anteaters, are mammals of the order Pholidota (from Ancient Greek φολῐ́ς,
+        "horny scale"). The one extant family, Manidae, has three genera: Manis, Phataginus and Smutsia. Manis comprises
+        the four species found in Asia, while Phataginus and Smutsia include two species each, all found in Sub-Saharan
+        Africa. These species range in size from 30 to 100 cm (12 to 39 in). A number of extinct pangolin species are
+        also known.</p>
+    <h2>Description</h2>
+    <p>Pangolins have large, protective keratin scales covering their skin; they are the only known mammals with this
+        feature. They live in hollow trees or burrows, depending on the species. Pangolins are nocturnal, and their diet
+        consists of mainly ants and termites, which they capture using their long tongues. They tend to be solitary
+        animals, meeting only to mate and produce a litter of one to three offspring, which they raise for about two
+        years.</p>
+    <h2>Poaching</h2>
+    <p>Pangolins are threatened by poaching (for their meat and scales, which are used in Chinese traditional medicine)
+        and heavy deforestation of their natural habitats, and are the most trafficked mammals in the world.As of
+        January 2020, of the eight species of pangolin, three (Manis culionensis, M. pentadactyla and M. javanica) are
+        listed as critically endangered, three (Phataginus tricuspis, Manis crassicaudata and Smutsia gigantea) are
+        listed as endangered and two (Phataginus tetradactyla and Smutsia temminckii) are listed as vulnerable on the
+        Red List of Threatened Species of the International Union for Conservation of Nature.</p>
+
+    <hr>
+    <h1>Movies</h1>
+    <h2>My Top 3 Movies:</h2>
+    <ol>
+        <li>Amadeus</li>
+        <li>Stand By Me</li>
+        <li>Amelie</li>
+    </ol>
+
+    <h2>Other Good Movies:</h2>
+    <ul>
+        <li>Alien</li>
+        <li>Parasite</li>
+        <li>Annie Hall</li>
+    </ul>
+    <hr>
+    <a href="https://en.wikipedia.org/wiki/Wolf">Read about wolf</a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Kolm%C3%A5rden_Wolf.jpg" alt="A wolf image">
+
+    <hr>
+    <h1>&#9731;Snowman Productions<sup>&reg;</sup></h1>
+    <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>RegNo</th>
+                <th>Stream</th>
+                <th>Minor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Neeraj</td>
+                <td>11913598</td>
+                <td>CSE</td>
+                <td>Cyber</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>RegNo</td>
+                <td>Stream</td>
+                <td>Minor</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>RegNo</td>
+                <td>Stream</td>
+                <td>Minor</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>RegNo</td>
+                <td>Stream</td>
+                <td>Minor</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Subscription</th>
+                <th>Price</th>
+                <th>Support</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Free</td>
+                <td>Free</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Personal</td>
+                <td>$9.99</td>
+                <td>Weekdays</td>
+            </tr>
+            <tr>
+                <td>Business</td>
+                <td>$49.99</td>
+                <td>24/7</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h1>Forms Demo</h1>
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter username: </label>
+            <input type="text" placeholder="username" id="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter password: </label>
+            <input type="password" placeholder="password" id="password" name="password">
+        </p>
+        <p>
+            <label for="color">Choose color: </label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label>
+                Select number:
+                <input type="number" placeholder="number" name="number" min="1" max="1000">
+            </label>
+        </p>
+        <!--this button doesn't submit the form b/c of the "type" attribute-->
+        <button type="button">Regular button (won't submit)</button>
+        <!--This button submits the form-->
+        <button>Submit</button>
+        <!--So does this one but we created it using input tag-->
+        <input type="submit" value="Click me!">
+    </form>
+    <hr>
+    <!--Outside of a form, no default behaviour-->
+    <button>Outside the form</button>
+    <hr>
+    <h2>Hijacking Searches</h2>
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q">
+        <button>search reddit</button>
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>search google</button>
+    </form>
+    <hr>
+    <form action="">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree</label>
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+        <p>
+            <label for="model">Select the Model</label>
+            <select name="model" id="model">
+                <option value="">--Select the Model--</option>
+                <option value="model 3">Model 3</option>
+                <option value="model S">Model S</option>
+                <option value="cybertruck">Cybertruck</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Select amount of cheese: </label>
+            <input type="range" id="cheese" min="1" max="100" value="50" name="cheese_level">
+        </p>
+        <p>
+            <label for="feedback">feedback & suggestions</label> <br>
+            <textarea name="feedback" id="feedback" placeholder="type feedback & suggestions..." cols="40"
+                rows="10"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+    <hr>
+    <h2>Forms Practice</h2>
+    <form action="">
+        <div>
+            <label for="user">Username</label>
+            <input type="text" id="user" placeholder="username" name="user" minlength="5" maxlength="20" required>
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" placeholder="password" name="pass">
+
+        </div>
+        <button>Register</button>
+    </form>
+</body>
+
+</html>
