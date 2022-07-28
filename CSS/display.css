@@ -1,0 +1,12 @@
+/* h1 is block element but we can change it to inline using display*/
+h1 {
+    background-color: plum;
+    border: 3px solid black;
+    display: inline;
+}
+
+span {
+    background-color: paleturquoise;
+    border: 2px solid black;
+    display: block;
+}
